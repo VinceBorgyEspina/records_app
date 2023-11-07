@@ -1,0 +1,11 @@
+{
+    "name": "vince/records_app",
+    "autoload": {
+        "psr-4": {
+            "Vince\\RecordsApp\\": "src/"
+        }
+    },
+    "require": {
+        "fzaninotto/faker": "^1.5"
+    }
+}
