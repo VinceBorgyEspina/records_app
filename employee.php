@@ -75,12 +75,12 @@
                                             
                                         </thead>
                                         <tbody>
-                                            <?php foreach ($offices as $office) :  ?>
+                                            <?php foreach ($employees as $employee) :  ?>
                                             <tr>
-                                                <td><?php echo $office['lastname']; ?></td>
-                                                <td><?php echo $office['firstname']; ?></td>
-                                                <td><?php echo $office['address']; ?></td>
-                                                <td><?php echo $office['office_name']; ?></td>
+                                                <td><?php echo $employee['lastname']; ?></td>
+                                                <td><?php echo $employee['firstname']; ?></td>
+                                                <td><?php echo $employee['address']; ?></td>
+                                                <td><?php echo $employee['office_name']; ?></td>
                                                 
                                             </tr>
                                             <?php endforeach ?>
